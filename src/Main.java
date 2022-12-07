@@ -22,7 +22,7 @@ public class Main {
 	marbleList.add(new Marble(8, "blue", "Bob", new BigDecimal(0.25)));
 	marbleList.add(new Marble(9, "green", "Bobb Ob", new BigDecimal(0.75)));
 	marbleList.add(new Marble(10, "blue", "Bob", new BigDecimal(0.5)));
-	marbleList.add(new Marble(10, "red", "Te sts', Et", new BigDecimal(0.5)));
+	marbleList.add(new Marble(11, "red", "Te sts', Et", new BigDecimal(0.5)));
 	
 	marbleList = Marble.sortMarbleCollection(marbleList, new BigDecimal(0.5)); // run the algorithm
 
